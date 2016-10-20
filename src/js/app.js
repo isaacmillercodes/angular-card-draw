@@ -5,9 +5,10 @@
   'use strict';
 
   angular
-    .module('myApp', [
-      'myApp.config',
-      'myApp.components.main'
+    .module('cardDrawApp', [
+      'cardDrawApp.config',
+      'cardDrawApp.components.hand',
+      'cardDrawApp.components.deck'
     ]);
 
 })();
